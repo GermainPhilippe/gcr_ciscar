@@ -1,0 +1,35 @@
+
+<FORM>
+	<INPUT type=hidden value="" name="email" /> <INPUT type=button
+		value="Saisir" onClick="PromptMessage()">
+</FORM>
+
+<SCRIPT language=javascript>
+	function verifEmail(myString) 
+	{
+		var reg = /^([a-zA-Z0-9_-])+([.]?[a-zA-Z0-9_-]{1,})*@([a-zA-Z0-9-_]{2,}[.])+[a-zA-Z]{2,4}$/
+		return (reg.exec(myString)!=null)
+	}
+   
+	function PromptMessage() 
+	{
+		var saisie = prompt("Saisissez votre adresse e-mail :", "");
+		if (saisie!=null)
+		{
+			if(!verifEmail(saisie))
+			{
+				if(alert("Email Invalide !"))
+				{}
+				
+				PromptMessage();
+			}
+			else
+			{
+				//Validation du formulaire
+				if(alert("Email Invalide !"))
+				{}
+				
+			}
+		}
+	}
+</SCRIPT>

@@ -1,0 +1,4 @@
+AuthName "Accès protégé" 
+AuthType Basic
+AuthUserFile /var/www-production-v3/portail-ciscar/modules/geolane/.htpasswd
+Require valid-user

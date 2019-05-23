@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+body {
+	background: #cfcfcf;
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+	font-family: arial;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: 0px;
+}
+
+#wrapper {
+	width: 1270px;
+	background: #cfcfcf url('../../include/images/kit/fond.jpg') repeat-y
+		center top;
+	margin: 0px auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#wrapper #header {
+	float: left;
+	text-align: left;
+	width: 990px;
+	margin-left: 135px;
+}
+
+#wrapper #menubar {
+	float: left;
+	text-align: left;
+	width: 990px;
+	height: 40px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	margin-left: 135px;
+	border: 0px solid #CCC;
+	border-bottom: 5px solid #CCC;
+	background: #FFFFFF url('../../include/images/kit/bkgmenu.jpg') repeat-x;
+}
+
+#wrapper #menubar .menu {
+	display: block;
+	float: left;
+	width: 100px;
+	heigtht: 50px;
+	text-align: center;
+}
+
+#wrapper #menubar ul.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+	position: relative;
+	display: block;
+	height: 40px;
+}
+
+#wrapper #menubar ul.menu li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper #menubar ul.menu li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	margin-right: 5px;
+	padding-top: 8px;
+	background: transparent url('../../include/images/kit/bouton.jpg');
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#wrapper #banner {
+	text-align: left;
+	width: 990px;
+	height: 100px;
+	margin-left: 135px;
+}
+
+#wrapper #main-container {
+	float: left;
+	text-align: left;
+	width: 990px;
+	margin-left: 135px;
+	margin-top: 5px;
+}
+
+#wrapper #main-container #menu {
+	position: relative;
+	float: left;
+	text-align: left;
+	margin: 0px;
+}
+
+#wrapper #main-container #menu .menumodule {
+	width: 171px;
+	height: 50px;
+	text-align: left;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 30px;
+	background: #FFFFFF url('../../include/images/kit/MenuRenault.jpg')
+		no-repeat center top;
+}
+
+#wrapper #main-container #menu .menumodule2 {
+	width: 171px;
+	height: 50px;
+	text-align: left;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 30px;
+	background: #FFFFFF url('../../include/images/kit/MenuHorsRenault.jpg')
+		no-repeat center top;
+}
+
+#wrapper #main-container #menu .menuLink {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding-left: 10px;
+	margin-left: 1px;
+	width: 161px;
+}
+
+#wrapper #main-container #main {
+	position: relative;
+	margin-left: 195px;
+	width: 800px;
+	padding: 0px;
+}
+
+#wrapper #main-container #main #ALaUne {
+	float: left;
+	width: 570px;
+	margin: 0px;
+}
+
+#wrapper #main-container #main #zoom {
+	margin-left: 585px;
+	text-align: left;
+	width: 210px;
+	border-left: 2px solid #CCC;
+}
+
+#wrapper #footer {
+	float: left;
+	text-align: center;
+	width: 990px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 135px;
+	color: #0B3E77;
+	font-size: .9em;
+}
+
+#wrapper #footer a {
+	color: #0B3E77;
+	font-size: .9em;
+}

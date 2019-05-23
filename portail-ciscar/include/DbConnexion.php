@@ -1,0 +1,7 @@
+<?php
+//$link = mysql_connect ( $CONFIG_MYSQL_HOSTNAME, $CONFIG_MYSQL_USERNAME, $CONFIG_MYSQL_PASSWORD );
+//mysql_select_db ( $CONFIG_MYSQL_BASENAME, $link );
+
+$link = mysqli_connect ( $CONFIG_MYSQL_HOSTNAME, $CONFIG_MYSQL_USERNAME, $CONFIG_MYSQL_PASSWORD,$CONFIG_MYSQL_BASENAME );
+$_SESSION['LINK'] = $link;
+?>

@@ -1,0 +1,328 @@
+body {
+	background-image: url(../../include/images/bg_top_bandeau.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #CFCFCF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #362f2d;
+	font-size: 15px;
+	margin: 0;
+}
+
+/*
+**************************************************************
+==============================================================
+======================= CSS PAGES LOGIN ======================
+==============================================================
+**************************************************************
+*/
+#bandeau {
+	width: 1000px;
+	height: 39px;
+	background-image: url(../../include/images/bg_top_bandeau.jpg);
+	background-repeat: repeat-x;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	line-height: 39px;
+}
+
+#flag_fr,#flag_be, #flag_de, #flag_gb, #flag_nl {
+	height: 19px;
+	line-height: 19px;
+	float: left;
+	text-indent: 0px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+a.flag_link {
+	color: #FFFFFF;
+}
+
+flag_link a:hover {
+	text-decoration: underline;
+}
+
+.clearboth {
+	clear: both;
+}
+
+#wrapper {
+	background-image: url(../../include/images/bg_wrapper.jpg);
+	width: 1210px;
+	background-repeat: repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	width: 1000px;
+	margin-left: 100px;
+}
+
+#logo {
+	height: 110px;
+	width: 1000px;
+	text-align: center;
+}
+
+#filigrane {
+	background: url(../../include/images/filigrane.jpg) no-repeat top left;
+	width: 999px;
+	padding-top: 40px;
+}
+
+/*
+==========> PAGE INDEX <===========================================
+*/
+.index_left_content {
+	margin-left: 180px;
+	margin-right: 90px;
+	width: 240px;
+}
+
+.index_right_content {
+	width: 240px;
+	margin-left: 20px;
+}
+/*
+==========> PAGE DEAL <===========================================
+*/
+.tabDeal {
+	border: 1px solid #014E9C;
+	border-collapse: collapse;
+}
+
+.tabDeal_td {
+	border: 1px solid #fff;
+	padding: 4px;
+	background-color: #f5f5f5;
+}
+
+.tabDeal_th {
+	border: 1px solid #000033;
+	padding: 4px;
+	background-color: #192d62;
+	color: #fff;
+}
+
+.index_deal_right_content {
+	width: 280px;
+	margin-left: 20px;
+}
+
+.index_deal_right_button {
+	width: 280px;
+	height: 68px;
+	margin-left: 154px;
+}
+
+.input_deal {
+	width: 240px;
+	color: #900;
+}
+
+.input_deal_short {
+	width: 50px;
+	color: #900;
+	font-size: 13px;
+}
+
+input.fr_bouton_somme {
+	border: none;
+	background: url('../../include/images/fr_bouton_somme.png');
+	background-repeat: no-repeat;
+	width: 31px;
+	height: 31px;
+	cursor: pointer;
+}
+
+input.fr_bouton_cmd_deals {
+	background-color: #47ad76;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 15px 40px;
+	border: 2px solid #3C9;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin: 20px 0px 10px 0;
+	color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	"
+}
+
+.cntSeparator {
+	color: #ffffff;
+	margin-top: 9px;
+}
+
+.cntDigit {
+	background-size: 100% !important;
+}
+
+.cntDigit#cnt_0 {
+	margin-left: 0px;
+}
+
+.cntDigit#cnt_2 {
+	margin-left: 7px;
+}
+
+/*
+==========> PAGE QUI SOMMES NOUS <===================================
+*/
+.about_left_content {
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 490px;
+	margin-bottom:80px;
+}
+
+.about_right_content {
+	margin-left: 20px;
+}
+
+/*
+==========> PAGE S'INSCRIRE <========================================
+*/
+.subscribe_content {
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+.subscribe_left_content {
+	margin-left: 180px;
+	text-align: right;
+}
+
+.subscribe_right_content {
+	margin-left: 20px;
+	text-align: right;
+}
+
+/*
+======================================================================
+*/
+a {
+	color: #014e9c;
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	font-stretch: ultra-condensed;
+	font-variant: small-caps;
+}
+
+.input_login {
+	width: 240px;
+}
+
+.input_suscribe {
+	width: 180px;
+}
+
+.input_login_lost {
+	width: 210px;
+	height: 27px;
+	float: left;
+	margin-right: 10px;
+}
+
+.input_login_new {
+	width: 230px;
+	height: 27px;
+	float: left;
+	margin-right: 0px;
+}
+
+.banniere_pub {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#footer {
+	text-align: center;
+}
+
+#login_lost {
+	width: 500px;
+}
+
+#login_lost_error {
+	color: #900;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#login_lost_success {
+	color: #090;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.bouton_envoyer {
+	background: url(../../include/images/fr_bouton_envoyer.gif) no-repeat;
+	width: 146px;
+	height: 32px;
+	float: left;
+}
+
+input.fr_bouton_se_connecter {
+	border: none;
+	background: url('../../include/images/fr_bouton_se_connecter.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	width: 236px;
+	height: 56px;
+	cursor: pointer;
+}
+
+input.fr_bouton_connecte {
+	border: none;
+	background: url('../../include/images/fr_bouton_se_connecter.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	width: 236px;
+	height: 56px;
+	cursor: pointer;
+	margin-top: 43px;
+}
+
+input.fr_bouton_envoyer {
+	border: none;
+	background: url('../images/fr_bouton_envoyer.gif');
+	background-repeat: no-repeat;
+	display: block;
+	width: 146px;
+	height: 32px;
+	cursor: pointer;
+	float: left;
+}
+
+.display_none {
+	display: none;
+}
+
+input.fr_button_sinscrire {
+	border: none;
+	background: url('../images/fr_bouton_sinscrire.png');
+	background-repeat: no-repeat;
+	width: 236px;
+	height: 56px;
+	cursor: pointer;
+	margin-top:30px;
+}
+
+img {
+	border: 0;
+}

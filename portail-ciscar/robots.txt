@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /config/
+Disallow: /include/
+Disallow: /modules/
+Disallow: /userfiles/
+Disallow: /admin/
+Disallow: /ftp/
