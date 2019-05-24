@@ -1,0 +1,28 @@
+.page tr.titre {
+	background-color: #D4D4D4;
+	background-image: url('../images/bt/ligne.jpg');
+	height: 30px;
+	font-size: 11px;
+}
+
+.page table.lise {
+	width: 100%;
+}
+
+.page td.row1 {
+	background-color: #F4F4F4;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.page td.row2 {
+	background-color: #E8E8E8;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#filtre {
+	visibility: hidden;
+}

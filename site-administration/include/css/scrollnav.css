@@ -1,0 +1,60 @@
+/* BEGIN : div.scrollbar */
+div#nav div.scrollbar {
+	clear: both;
+	height: 22px;
+	margin: 0pt 0px 10px 0pt;
+	background: transparent
+		url(../../include/images/scrollnav-scrollbar-windowed.gif) no-repeat 0
+		0;
+	text-align: center;
+	font-weight: bold;
+}
+
+div#nav div.scrollbar a {
+	text-decoration: none;
+}
+
+div#nav div.scrollbar a:hover {
+	text-decoration: underline;
+}
+
+div#nav div.scrollbar a.back, div#nav div.scrollbar a.next, div#nav div.scrollbar span.back,
+	div#nav div.scrollbar span.next {
+	float: left;
+	width: 80px;
+	padding: 4px 0 0 16px;
+	text-align: center;
+}
+
+div#nav div.scrollbar span.back, div#nav div.scrollbar span.next {
+	color: #ddd;
+}
+
+div#nav div.scrollbar a.next, div#nav div.scrollbar span.next {
+	float: right;
+	padding: 4px 14px 0 0;
+}
+
+div#nav div.scrollbar a.cell, div#nav div.scrollbar span.cell {
+	padding: 2px 5px 2px 7px;
+	background: transparent
+		url(../../include/images/scrollnav-scrollcell.gif) no-repeat top left;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+div#nav div.scrollbar a.nocell {
+	padding: 2px 5px 2px 7px;
+	/*background:transparent url(../../images/scrollnav-scrollcell.gif) no-repeat top left;*/
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+div#nav div.scrollbar a.selected {
+	background: transparent
+		url(../../include/images/scrollnav-selectedcell.gif) no-repeat top
+		left !important;
+	color: #fff !important;
+}
+
+/* END OF : div.scrollbar */

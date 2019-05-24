@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.page tr.title {
+	background-color: #D4D4D4;
+	background-image: url('../images/bt/bg_bar.jpg');
+	height: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 11px;
+}
+
+.page table.sorttable {
+	width: 100%;
+}
+
+.page td.row1 {
+	background-color: #F4F4F4;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.page td.row2 {
+	background-color: #E8E8E8;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.bubbleInfo {
+	position: relative;
+}
+
+.popup {
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	display: none; /* keeps the popup hidden if no JS available */
+}

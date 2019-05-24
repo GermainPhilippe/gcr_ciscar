@@ -1,0 +1,77 @@
+#ZoneContainer {
+	border: 1px solid #CCC;
+	width: 80%;
+	padding: 5px;
+}
+
+#ZoneBandeau {
+	border: 0px solid #CCC;
+	width: 100%;
+	text-align: center;
+}
+
+#ZonePage {
+	border: 1px solid #CCC;
+	width: 100%;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+
+#ZonePage a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#ZonePage a:hover {
+	color: #0000FF;
+}
+
+#ZoneDescription {
+	border: 1px solid #CCC;
+	width: 100%;
+	text-align: center;
+}
+
+#ZoneStatic {
+	border: 1px solid #CCC;
+	width: 100%;
+	text-align: left;
+}
+
+#ZoneModule {
+	border: 1px solid #CCC;
+	width: 100%;
+	text-align: left;
+}
+
+#ZoneModule .module {
+	border: solid 1px #EEEEEE;
+	padding: 5px;
+}
+
+#ZoneModule .section {
+	border: solid 1px #DDDDDD;
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+
+#ZoneModule .section .description {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000000;
+}
+
+#ZoneModule .section .champ .libelle {
+	float: left;
+}
+
+#ZoneModule .section .champ .display {
+	margin-left: auto;
+}
+
+#ZoneValidation {
+	border: 0px solid #CCC;
+	width: 100%;
+	text-align: center;
+}

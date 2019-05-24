@@ -1,0 +1,106 @@
+body {
+	font: 12px Arial;
+}
+
+input {
+	font: 12px Arial;
+}
+
+textarea {
+	font: 12px Arial;
+}
+
+#ZoneContainer {
+	border: 1px solid #CCC;
+	width: 80%;
+	padding: 5px;
+}
+
+#ZoneBandeau {
+	border: 0px solid #CCC;
+	width: 100%;
+	text-align: center;
+}
+
+#ZonePage {
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	background: url('../../../include/images/FiletJaunePlein.gif') no-repeat
+		center;
+}
+
+#ZonePage a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#ZonePage a:hover {
+	background: #CCCCCC;
+}
+
+#ZoneDescription p {
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#ZoneStatic {<!--
+	border: 1px solid #CCC; -->
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+}
+
+#ZoneModule {<!--
+	border: 1px solid #CCC; -->
+	width: 100%;
+	text-align: left;
+	padding: 5px;
+}
+
+#ZoneModule .module {<!--
+	border: solid 1px #EEEEEE; -->
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#ZoneModule .section {<!--
+	border: solid 1px #DDDDDD; -->
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+
+.description p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000000;
+}
+
+#ZoneModule .section .champ {
+	margin-bottom: 10px;
+}
+
+#ZoneModule .section .champ .libelle {
+	font-weight: bold;
+}
+
+#ZoneModule .section .champ .display {
+	margin-left: auto;
+	padding-left: 30px;
+}
+
+#ZoneInvite {<!--
+	border: 1px solid #CCC; -->
+	width: 100%;
+	text-align: left;
+}
+
+#ZoneValidation {
+	border: 0px solid #CCC;
+	width: 100%;
+	text-align: center;
+}

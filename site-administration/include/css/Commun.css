@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	font: normal normal normal 11px/normal Arial, Helvetica, sans-serif;
+}
+
+input.disabled, input[disabled], input[readonly], select[disabled],
+	select[readonly], checkbox[disabled], checkbox[readonly], textarea[disabled],
+	textarea[readonly] {
+	background-color: #F4F4F4;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}

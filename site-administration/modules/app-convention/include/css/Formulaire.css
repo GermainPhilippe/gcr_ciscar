@@ -1,0 +1,31 @@
+.linkTabDocument {
+	display: block;
+	width: 100px;
+	background-color: #CCC;
+	color: #000;
+	border: solid 1px #000;
+	line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 0;
+}
+
+.linkTabDocument:hover {
+	background-color: #EEE;
+}
+
+.linkTabDocumentCurrent {
+	display: block;
+	width: 100px;
+	background-color: #EEE;
+	color: #000;
+	border: solid 1px #000;
+	line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 0;
+}
+
+.linkTabDocumentCurrent:hover {
+	background-color: #CCC;
+}

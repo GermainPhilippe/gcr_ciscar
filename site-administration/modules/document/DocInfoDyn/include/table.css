@@ -1,0 +1,13 @@
+#CategoryTable td.row1 {
+	background-color: #F4F4F4;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#CategoryTable td.row2 {
+	background-color: #E8E8E8;
+	height: 30px;
+	font-size: 11px;
+	border-bottom: 1px solid #FFFFFF;
+}
